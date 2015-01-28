@@ -3,9 +3,9 @@
 function drawCircle() {
 
 	var counter = 500; 
-  		var canvas = document.getElementById("canvas"); 
+  	var canvas = document.getElementById("canvas"); 
 		
-		var ctx = canvas.getContext('2d'); 
+	var ctx = canvas.getContext('2d'); 
 
 
 	for (var i = 0; i < counter; i++) {
@@ -26,12 +26,9 @@ function drawCircle() {
 		ctx.arc(x,y, radius, 0, 2 * Math.PI, true);
 		ctx.fillStyle = cssColor; 
 		ctx.fill();
-		var time_end = new Date(); 
-        var diff = Math.abs( time_begin - time_end);
-
 
     }
 
 }
 
-	drawCircle(); 
+drawCircle(); 
